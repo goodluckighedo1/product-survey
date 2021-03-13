@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Survey</title>
+</head>
+<body>
+    
+    <div>
+        
+    <form>
+        <h3>Customer Information</h3>
+        <hr>
+        <h4>Customer Name</h4>
+
+        <div class="form-column">
+        <div class="form-content"> 
+            <input type="text" id="1stname" name="1stname">
+            <label for="1stname">First name</label>
+        </div>
+        <div class="form-content">
+            <input type="text" id="2ndname" name="1stname">
+            <label for="2ndname">Last name</label>
+        </div>
+        </div>
+
+        <h4>Address</h4>
+        <div class="form-content">
+        <input type="text" id="addr" name="addr">
+        <label for="addr">Street Address</label>
+        </div>
+        <div class="form-content">
+        <input type="text" id="addr" name="addr">
+        <label for="addr">Street Address Line 2</label>
+        </div>
+
+        <div class="form-column">
+        <div class="form-content">
+        <input type="text" id="city" name="city">
+        <label for="city">City</label>
+        </div>
+        
+        <div class="form-content">
+            <input type="text" id="state" name="state">
+            <label for="state">State / Province</label>
+        </div>
+        </div>
+        
+        <div class="form-column">
+        <div class="form-content">
+        <input type="text" id="postalcode" name="postalcode">
+        <label for="postalcode">Postal/Zip Code</label>
+        </div>
+        <div class="form-content">
+        
+        <select id="country" name="postalcode">
+        <option value="">Please Select</option>
+        <option value="australia">Australia</option>
+        <option value="brazil">Brazil</option>
+        <option value="canada">Canada</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="usa">USA</option>
+        </select>
+        <label for="Country">Country</label>
+        </div>
+        </div>
+        
+        <h4>Contact Number</h4>
+        <div class="form-column">
+        <div class="form-content">
+        <input type="text" id="areacode" name="areacode">
+        <label for="areacode">Area Code</label>
+        </div>
+        <div class="form-content">
+        <input type="tel" id="phonenum" name="phonenum">
+        <label for="phonenum">Phone Number</label>
+        </div>
+        </div>
+        
+        <h4>E-mail</h4>
+        <div class="form-content">
+        <input type="email" placeholder="ex:myname@example.com">
+        <hr>
+        </div>
+        <div class="form-content">
+        <label for="product-time">How long have you been using this product and why?</label>
+        <textarea cols="48" rows="5"></textarea>
+        </div>
+        <div class="form-content">
+        <label for="comments">Write your comments and suggestions about our products in comparison with other competitors:</label>>
+        <textarea cols="48" rows="5"></textarea>
+        </div>
+        <div class="form-content">
+        <label for="opinion">Are you satisfied with our product performance? Share your opinions:</label>
+        <textarea cols="48" rows="5"></textarea>
+        </div>
+        <div class="form-content">
+        <h4>Thank you for completing this survey!</h4>
+        <input type="submit" value="Submit">
+        </div>
+
+
+
+    </form>
+    </div>
+</body>
+</html>
