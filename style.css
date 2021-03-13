@@ -2,6 +2,10 @@ body {
     
     font-family: 'Red Hat Text', sans-serif;
     }
+
+    h1{
+        text-align: center;
+    }
     
     .form-column{
         display:flex;
